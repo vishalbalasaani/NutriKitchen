@@ -1,0 +1,126 @@
+export const siteConfig = {
+  name: "Nutri Kitchen",
+  description: "Fresh oat bowls made with real ingredients, packed with nutrition and prepared fresh every day.",
+  url: "https://nutrikitchen.com",
+  ogImage: "https://nutrikitchen.com/og.jpg",
+  contact: {
+    phone: "+919030330384",
+    whatsapp: "+919030330384",
+    address: "Karimnagar, Telangana",
+    email: "hello@nutrikitchen.com"
+  },
+  social: {
+    instagram: "https://www.instagram.com/the_nutri_kitchen?igsh=c2dkc3lqZDdqamp4",
+    swiggy: "https://www.swiggy.com/menu/1319547?source=sharing",
+    zomato: "https://zomato.onelink.me/xqzv/bvtzx63o",
+    googleMaps: "https://www.google.com/maps/search/?api=1&query=H.no+1-3-113,+Ashoknagar,+karimnagar,+telangana,+505001,+india"
+  },
+  restaurantInfo: {
+    openingHours: "Mon-Sun, 8:00 AM - 10:00 PM"
+  },
+  categories: [
+    { id: "all", label: "All" },
+    { id: "classic", label: "Classic Bowls" },
+    { id: "signature", label: "Signature Bowls" },
+    { id: "power", label: "Power Bowls" },
+    { id: "seasonal", label: "Seasonal Bowls" },
+  ],
+  menu: [
+    {
+      id: "classic-banana-honey",
+      name: "Creamy Banana Honey Oats",
+      description: "Creamy oats made with fresh milk and ripe banana, lightly sweetened with honey.",
+      price: 120,
+      image: "/images/menu/banana-honey-oats.jpg",
+      category: "classic",
+    },
+    {
+      id: "classic-pomegranate",
+      name: "Classic Pomegranate Oats",
+      description: "Creamy oats prepared with fresh milk and topped with juicy pomegranate pearls, lightly sweetened with honey. Fresh mild sweet and satisfying ideal for a breakfast or evening meal.",
+      price: 140,
+      image: "/images/menu/pomegranate-oats.jpg",
+      category: "classic",
+    },
+    {
+      id: "classic-apple",
+      name: "Classic Apple Oats",
+      description: "Creamy oats made with fresh milk and crunchy apple pieces, lightly sweetened with honey. Simple, filling and perfect for morning or evening.",
+      price: 150,
+      image: "/images/menu/apple-oats.jpg",
+      category: "classic",
+    },
+    {
+      id: "classic-choco-banana",
+      name: "Choco Banana Oats",
+      description: "Creamy oats made with fresh milk and ripe banana, blended with a hint of cocoa and lightly sweetened with honey. Simple, filling and perfect for morning or evening.",
+      price: 140,
+      image: "/images/menu/choco-banana-oats.jpg",
+      category: "classic",
+    },
+    {
+      id: "signature-fruit-granola",
+      name: "Fruit Granola Oats",
+      description: "Creamy oats made with fresh milk and ripe banana, topped with pomegranate, crunchy granola, mixed seeds and a light drizzle of honey. Filling, flavourful and perfect for morning or evening.",
+      price: 150,
+      image: "/images/menu/fruit-granola-oats.jpg",
+      category: "signature",
+    },
+    {
+      id: "signature-triple-fruit",
+      name: "Triple Fruit Oats",
+      description: "Creamy oats cooked in fresh milk and topped with a mix of apple, banana, pomegranate, lightly sweetened with honey.",
+      price: 150,
+      image: "/images/menu/triple-fruit-oats.jpg",
+      category: "signature",
+    },
+    {
+      id: "signature-nut-granola",
+      name: "Nut Granola Oats",
+      description: "Creamy oats made with fresh milk and apple, topped with almonds, roasted peanuts, crunchy granola, mixed seeds and a light drizzle of honey. Filling, nutty and perfect for morning or evening.",
+      price: 160,
+      image: "/images/menu/nut-granola-oats.jpg",
+      category: "signature",
+    },
+    {
+      id: "signature-nut-seeds",
+      name: "Nut and Seeds",
+      description: "Creamy oats cooked in fresh milk and topped with a mix of nuts and seeds, lightly sweetened with honey. Heartly wholesome and filling a great choice for sustained energy in the morning and evening.",
+      price: 160,
+      image: "/images/menu/nut-seeds-oats.jpg",
+      category: "signature",
+    },
+    {
+      id: "signature-creamy-banana-nut",
+      name: "Creamy Banana with Nut Granola Oats",
+      description: "Creamy Oats made with fresh milk and ripe banana, topped with crunchy granola, nuts and seeds slightly sweetened with honey.",
+      price: 180,
+      image: "/images/menu/creamy-banana-nut-granola-oats.jpg",
+      category: "signature",
+    },
+    {
+      id: "power-apple-peanut",
+      name: "Apple Peanut Power Oats",
+      description: "Creamy oats topped with fresh apple cubes, peanut butter, roasted peanuts, almonds, and wholesome mixed seeds. A balanced and filling bowl packed with protein, fiber, and good fats.",
+      price: 240,
+      image: "/images/menu/apple-peanut-power-oats.jpg",
+      category: "power",
+    },
+    {
+      id: "power-banana-peanut",
+      name: "Banana Peanut Power Oats",
+      description: "Smooth creamy oats topped with fresh banana slices, peanut butter, roasted peanuts, crunchy almonds, and nutritious mixed seeds. A delicious and nourishing bowl rich in protein, fiber, and healthy fats.",
+      price: 220,
+      image: "/images/menu/banana-peanut-power-oats.jpg",
+      category: "power",
+    },
+    {
+      id: "seasonal-mango-almond",
+      name: "Mango Almond Oats",
+      description: "Creamy oats mixed with fresh mango puree, topped with juicy mango pieces, crunchy almonds and a light drizzle of honey. A refreshing, naturally sweet bowl perfect for a healthy breakfast.",
+      price: 200,
+      image: "/images/menu/mango-almond-oats.jpg",
+      category: "seasonal",
+    }
+  ]
+};

@@ -1,26 +1,38 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #faf9f6; /* Soft Off White */
+  --foreground: #1a1a1a; /* Dark Charcoal */
+  --primary: #2e5c3e; /* Natural Green */
+  --primary-foreground: #ffffff;
+  --secondary: #fdfaf5; /* Warm Cream */
+  --secondary-foreground: #1a1a1a;
+  --accent: #4ade80; /* Fresh Leaf Green */
+  --accent-foreground: #1a1a1a;
+  --border: #dcfce7; /* Very Light Green */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  
+  --font-sans: var(--font-manrope);
+  --font-heading: var(--font-plus-jakarta-sans);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Remove dark mode query entirely as requested */
